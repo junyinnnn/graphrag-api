@@ -3,7 +3,7 @@ import yaml
 from typing import Optional
 
 class Settings(BaseSettings):
-    GRAPHRAG_LLM_TYPE: str = "openai_chat" # openai_chat or azure_openai_chat
+    GRAPHRAG_LLM_TYPE: str = "azure_openai_chat" # openai_chat or azure_openai_chat
     OPENAI_API_KEY: Optional[str] = None
     GRAPHRAG_LLM_MODEL: str = "gpt-4o"
     GRAPHRAG_LLM_API_BASE: Optional[str] = None
